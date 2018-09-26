@@ -11,6 +11,9 @@ body {
     margin-left: auto;
     margin-right: auto
 }
+canvas {
+    border:solid #444444 5px;
+}
 
 header {
 	
