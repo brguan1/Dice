@@ -5,9 +5,21 @@ void setup()
 }
 void draw()
 {
-Die bob = new Die(300,300);
-bob.show();
-bob.roll();
+int total = 0;
+background(67, 175, 5);
+for (int y = 0; y<=550; y+=52)
+{
+	for (int x = 0; x<=550; x+=52)
+	{
+		Die bob = new Die(x,y);
+		bob.show();
+		bob.roll();
+		total = total + bob.side;
+	} 
+}
+fill(0);
+textAlign(CENTER);
+text("Total : " + total, 550, 590);
 }
 void mousePressed()
 {
