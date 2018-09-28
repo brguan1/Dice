@@ -14,6 +14,12 @@ canvas {
     border:solid #444444 5px;
 }
 
+h1 {
+    border-top: solid 20px;
+    border-bottom: solid 10px;
+    border-color: rgb(0,0,0);
+}
+
 header {
 	
 }
